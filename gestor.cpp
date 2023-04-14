@@ -4,8 +4,8 @@ using namespace std;
 int main() {
     // Creamos las tareas y las almacenamos
     CrearTarea tarea1("Historia", 12, 4);
-    CrearTarea tarea2("Sexo", 14, 4);
-    CrearTarea tarea3("Mate", 12, 4);
+    CrearTarea tarea2("Ciudadania", 14, 4);
+    CrearTarea tarea3("Matematica", 12, 4);
 
     AlmacenTareas almacen;
     almacen.agregarTarea(tarea1.crearTarea());
